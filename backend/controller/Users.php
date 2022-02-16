@@ -49,7 +49,7 @@ class Users
 
 
     /**
-    * отмена авторизации пользователя
+    * открыть форму авторизации пользователя
     */
     public function showLoginForm (array $param)
     {

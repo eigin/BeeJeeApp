@@ -8,7 +8,6 @@
  function sendRequest (controller, method, param) {
      $.post( 'index.php', { c: controller, m: method, param: param },
          (data)=> {
-             console.log('data:',data);
              let result = data;
              try {
              // если сообщение об ошибке
